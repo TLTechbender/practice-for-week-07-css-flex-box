@@ -4,9 +4,13 @@
     background-color: palegoldenrod;
     border: solid black 2px;
     font-size: 42pt;
-
+    display:flex;
+    
+    
     /* Phase 1 */
-
+    display:flex;
+    align-items:center;
+    justify-content:center;
     /* Your code here */
 }
 
@@ -16,6 +20,9 @@
     padding: 16px;
 
     /* Phase 2 */
+   display:inline-flex;
+   justify-content:space-around;
+    gap:8px;
 
     /* Your code here */
 }
@@ -45,13 +52,18 @@
     padding: 12px;
 
     /* Phase 3 */
-
+     display:flex;
+     flex-direction:column;
+     justify-content:space-between;
+      align-items:flex-end;
+      flex-basis:33%;
     /* Your code here */
 }
 
 .example4 {
     /* Phase 4 - Part 1 of 2 */
-
+    display:flex;
+    
     /* Your code here */
 }
 
@@ -60,7 +72,9 @@
     padding: 8px;
 
     /* Phase 4 - Part 2 of 2 */
-
+        flex-direction:column;
+       flex-wrap: wrap;
+       
     /* Your code here */
 }
 .content-area {
